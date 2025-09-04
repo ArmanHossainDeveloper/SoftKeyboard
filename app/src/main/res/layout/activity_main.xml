@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20px"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="#ccc">
+
+
+<!--
+
+        <LinearLayout
+            style="@style/control_panel_row">
+
+            <Button
+                style="@style/text_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="monospace"
+                android:text="Get"
+                android:textSize="24dp" />
+
+            <Button
+                style="@style/text_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="monospace"
+                android:text="Get"
+                android:textSize="24dp" />
+
+            <Button
+                style="@style/text_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="monospace"
+                android:text="Get"
+                android:textSize="24dp" />
+
+            <Button
+                style="@style/text_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="monospace"
+                android:text="Get"
+                android:textSize="24dp" />
+
+            <Button
+                style="@style/text_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="monospace"
+                android:text="Get"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+-->
+
+        <LinearLayout
+            style="@style/key_row"
+            android:layout_marginTop="2dp">
+            <TextView
+                android:tag="esc"
+                style="@style/key_btn"
+                android:text="Esc"
+                android:textSize="15dp"/>
+            <TextView
+                android:tag="f1"
+                style="@style/sml_key_btn"
+                android:text="f1"/>
+            <TextView
+                android:tag="f2"
+                style="@style/sml_key_btn"
+                android:text="f2"/>
+            <TextView
+                android:tag="f3"
+                style="@style/sml_key_btn"
+                android:text="f3"/>
+            <TextView
+                android:tag="f4"
+                style="@style/sml_key_btn"
+                android:text="f4"/>
+            <TextView
+                android:tag="f5"
+                style="@style/sml_key_btn"
+                android:text="f5"/>
+            <TextView
+                android:tag="f6"
+                style="@style/sml_key_btn"
+                android:text="f6"/>
+            <TextView
+                android:tag="f7"
+                style="@style/sml_key_btn"
+                android:text="f7"/>
+            <TextView
+                android:tag="f8"
+                style="@style/sml_key_btn"
+                android:text="f8"/>
+            <TextView
+                android:tag="f9"
+                style="@style/sml_key_btn"
+                android:text="f9"/>
+            <TextView
+                android:tag="f10"
+                style="@style/sml_key_btn"
+                android:text="f10" />
+            <TextView
+                android:tag="f11"
+                style="@style/sml_key_btn"
+                android:text="f11"/>
+            <TextView
+                android:tag="f12"
+                style="@style/sml_key_btn"
+                android:text="f12"/>
+
+            <TextView
+                android:tag="del"
+                style="@style/key_btn"
+                android:text="del"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:tag="bksp"
+                style="@style/key_btn"
+                android:text="bksp"
+                android:textSize="15dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/key_row">
+            <TextView
+                android:tag="`"
+                style="@style/key_btn"
+                android:text="`"/>
+            <TextView
+                android:tag="1"
+                style="@style/key_btn"
+                android:text="1"/>
+            <TextView
+                android:tag="2"
+                style="@style/key_btn"
+                android:text="2"/>
+            <TextView
+                android:tag="3"
+                style="@style/key_btn"
+                android:text="3"/>
+            <TextView
+                android:tag="4"
+                style="@style/key_btn"
+                android:text="4"/>
+            <TextView
+                android:tag="5"
+                style="@style/key_btn"
+                android:text="5"/>
+            <TextView
+                android:tag="6"
+                style="@style/key_btn"
+                android:text="6"/>
+            <TextView
+                android:tag="7"
+                style="@style/key_btn"
+                android:text="7"/>
+            <TextView
+                android:tag="8"
+                style="@style/key_btn"
+                android:text="8"/>
+            <TextView
+                android:tag="9"
+                style="@style/key_btn"
+                android:text="9"/>
+            <TextView
+                android:tag="0"
+                style="@style/key_btn"
+                android:text="0"/>
+            <TextView
+                android:tag="-"
+                style="@style/key_btn"
+                android:text="-"/>
+            <TextView
+                android:tag="="
+                style="@style/key_btn"
+                android:text="="/>
+            <TextView
+                android:tag="\\"
+                style="@style/key_btn"
+                android:text="\\"/>
+            <TextView
+                android:tag="pgup"
+                style="@style/key_btn"
+                android:text="pgup"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/key_row">
+            <TextView
+                android:tag="tab"
+                style="@style/key_btn"
+                android:text="Tab"
+                android:layout_weight="1"/>
+            <TextView
+                android:tag="q"
+                style="@style/key_btn"
+                android:text="q"/>
+            <TextView
+                android:tag="w"
+                style="@style/key_btn"
+                android:text="w"/>
+            <TextView
+                android:tag="e"
+                style="@style/key_btn"
+                android:text="e"/>
+            <TextView
+                android:tag="r"
+                style="@style/key_btn"
+                android:text="r"/>
+            <TextView
+                android:tag="t"
+                style="@style/key_btn"
+                android:text="t"/>
+            <TextView
+                android:tag="y"
+                style="@style/key_btn"
+                android:text="y"/>
+            <TextView
+                android:tag="u"
+                style="@style/key_btn"
+                android:text="u"/>
+            <TextView
+                android:tag="i"
+                style="@style/key_btn"
+                android:text="i"/>
+            <TextView
+                android:tag="o"
+                style="@style/key_btn"
+                android:text="o"/>
+            <TextView
+                android:tag="p"
+                style="@style/key_btn"
+                android:text="p"/>
+            <TextView
+                android:tag="["
+                style="@style/key_btn"
+                android:text="["/>
+            <TextView
+                android:tag="]"
+                style="@style/key_btn"
+                android:text="]"/>
+
+
+            <TextView
+                android:tag="pgdn"
+                style="@style/key_btn"
+                android:text="pgdn"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/key_row">
+            <TextView
+                android:tag="caps"
+                style="@style/key_btn"
+                android:text="Caps"
+                android:layout_weight="1"/>
+            <TextView
+                android:tag="a"
+                style="@style/key_btn"
+                android:text="a"/>
+            <TextView
+                android:tag="s"
+                style="@style/key_btn"
+                android:text="s"/>
+            <TextView
+                android:tag="d"
+                style="@style/key_btn"
+                android:text="d"/>
+            <TextView
+                android:tag="f"
+                style="@style/key_btn"
+                android:text="f"/>
+            <TextView
+                android:tag="g"
+                style="@style/key_btn"
+                android:text="g"/>
+            <TextView
+                android:tag="h"
+                style="@style/key_btn"
+                android:text="h"/>
+            <TextView
+                android:tag="j"
+                style="@style/key_btn"
+                android:text="j"/>
+            <TextView
+                android:tag="k"
+                style="@style/key_btn"
+                android:text="k"/>
+            <TextView
+                android:tag="l"
+                style="@style/key_btn"
+                android:text="l"/>
+            <TextView
+                android:tag=";"
+                style="@style/key_btn"
+                android:text=";"/>
+            <TextView
+                android:tag="'"
+                style="@style/key_btn"
+                android:text="'"/>
+            <TextView
+                android:tag="enter"
+                style="@style/key_btn"
+                android:text="enter"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/key_row">
+            <TextView
+                android:tag="lshift"
+                style="@style/key_btn"
+                android:text="Shift"
+                android:layout_weight="1"/>
+            <TextView
+                android:tag="z"
+                style="@style/key_btn"
+                android:text="z"/>
+            <TextView
+                android:tag="x"
+                style="@style/key_btn"
+                android:text="x"/>
+            <TextView
+                android:tag="c"
+                style="@style/key_btn"
+                android:text="c"/>
+            <TextView
+                android:tag="v"
+                style="@style/key_btn"
+                android:text="v"/>
+            <TextView
+                android:tag="b"
+                style="@style/key_btn"
+                android:text="b"/>
+            <TextView
+                android:tag="n"
+                style="@style/key_btn"
+                android:text="n"/>
+            <TextView
+                android:tag="m"
+                style="@style/key_btn"
+                android:text="m"/>
+            <TextView
+                android:tag=","
+                style="@style/key_btn"
+                android:text=","/>
+            <TextView
+                android:tag="."
+                style="@style/key_btn"
+                android:text="."/>
+            <TextView
+                android:tag="/"
+                style="@style/key_btn"
+                android:text="/"/>
+
+            <TextView
+                android:tag="home"
+                style="@style/key_btn"
+                android:text="home"
+                android:textSize="15dp"/>
+            <TextView
+                android:tag="up"
+                style="@style/key_btn"
+                android:text="up"/>
+            <TextView
+                android:tag="end"
+                style="@style/key_btn"
+                android:text="end"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/key_row">
+            <TextView
+                android:tag="lctrl"
+                style="@style/key_btn"
+                android:text="Ctrl"
+                android:layout_weight="1"/>
+            <TextView
+                android:tag="lalt"
+                style="@style/key_btn"
+                android:text="Alt"/>
+            <TextView
+                android:tag="space"
+                style="@style/key_btn"
+                android:text="Space"
+                android:layout_weight="6.56"/>
+            <TextView
+                android:tag="ralt"
+                style="@style/key_btn"
+                android:text="Alt"/>
+            <TextView
+                android:tag="menu"
+                style="@style/key_btn"
+                android:text="Menu"
+                android:textSize="15dp"/>
+            <TextView
+                android:tag="ins"
+                style="@style/key_btn"
+                android:text="ins"/>
+            <TextView
+                android:tag="left"
+                style="@style/key_btn"
+                android:text="lf"/>
+            <TextView
+                android:tag="down"
+                style="@style/key_btn"
+                android:text="dn"/>
+            <TextView
+                android:tag="right"
+                style="@style/key_btn"
+                android:text="rt"/>
+
+        </LinearLayout>
+
+<!--
+
+        <LinearLayout
+            style="@style/key_row"
+            android:layout_height="40dp"
+            android:layout_weight="0">
+            <TextView
+                style="@style/key_btn"
+                android:text="Ctrl"
+                android:layout_weight="2"/>
+            <TextView
+                style="@style/key_btn"
+                android:text="Alt"/>
+            <TextView
+                style="@style/key_btn"
+                android:text="Space"
+                android:layout_weight="6.56"/>
+            <TextView
+                style="@style/key_btn"
+                android:text="Alt"/>
+            <TextView
+                style="@style/key_btn"
+                android:text="Menu"
+                android:textSize="15dp"/>
+            <TextView
+                style="@style/key_btn"
+                android:text="ctrl"/>
+            <TextView
+                style="@style/key_btn"
+                android:text="lf"/>
+            <TextView
+                style="@style/key_btn"
+                android:text="dn"/>
+            <TextView
+                style="@style/key_btn"
+                android:text="rt"/>
+
+        </LinearLayout>
+-->
+
+    </LinearLayout>
+
+</LinearLayout>
